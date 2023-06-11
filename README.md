@@ -17,5 +17,5 @@
 ### Start.java - 8 - Replace this use of System.out or System.err by a logger.
 ### Start.java - 19 - Replace this use of System.out or System.err by a logger.
 ## Rezultati za evaluateExpression i Calculate metode
-### evaluateExpression - cyclomatic 12 - cognitive -
-### calculate - cyclomatic 12 - cognitive -
+### evaluateExpression - cyclomatic 12 - cognitive 10
+### calculate - cyclomatic 12 - cognitive 13
