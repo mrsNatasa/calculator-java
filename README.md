@@ -16,3 +16,6 @@
 ### Start.java - 6 - Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
 ### Start.java - 8 - Replace this use of System.out or System.err by a logger.
 ### Start.java - 19 - Replace this use of System.out or System.err by a logger.
+## Rezultati za evaluateExpression i Calculate metode
+### evaluateExpression - cyclomatic 12 - cognitive -
+### calculate - cyclomatic 12 - cognitive -
