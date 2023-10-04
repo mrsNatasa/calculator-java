@@ -1,0 +1,19 @@
+# TESTIRANJE BLACK BOX METODOM 
+Aritmeticke operacije :
+sabiranje
+ulaz 2+3 izlaz 5
+ulaz -1 + 2 = 1
+ulaz 2.5 +3.5 = 6
+
+oduzimanje
+ulaz 5-3 izlaz 2
+ulaz -1 - 1 = -2
+ulaz 4.2 -1.5 = 2.7
+
+deljenje 
+ulaz 4/2 izlaz 2
+ulaz 4/1.2 izlaz 3.33333
+ulaz 4/0 izlaz Attempted to divide by zero. At line:1 char:1+ 4/0+ ~~~+ CategoryInfo          : NotSpecified: (:) [], RuntimeE  exception
++ FullyQualifiedErrorId : RuntimeException
+
+
