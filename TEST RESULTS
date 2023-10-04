@@ -1,19 +1,52 @@
 # TESTIRANJE BLACK BOX METODOM 
-Aritmeticke operacije :
-sabiranje
-ulaz 2+3 izlaz 5
-ulaz -1 + 2 = 1
-ulaz 2.5 +3.5 = 6
-
-oduzimanje
-ulaz 5-3 izlaz 2
-ulaz -1 - 1 = -2
-ulaz 4.2 -1.5 = 2.7
-
-deljenje 
-ulaz 4/2 izlaz 2
-ulaz 4/1.2 izlaz 3.33333
-ulaz 4/0 izlaz Attempted to divide by zero. At line:1 char:1+ 4/0+ ~~~+ CategoryInfo          : NotSpecified: (:) [], RuntimeE  exception
-+ FullyQualifiedErrorId : RuntimeException
-
+pokretanje programa :java start.java
+Enter expression here (type 'exit' to quit):exit
+pokretanjem komande exit izlazi se iz programa -ocekivano
+ulaz 4+5
+izlaz 9.0 ocekivano
+ulaz 4-3
+izlaz 1.0 ocekivano
+ulaz 4/2
+izlaz 2.0 ocekivano
+ulaz 4*2
+izlaz 8.0 ocekivano
+ulaz 4*1.5
+izlaz 6.0 ocekivano
+ulaz -1-3
+izlaz -4.0 ocekivano
+ulaz 0000
+izlaz 0.0 ocekivano
+ulaz 0
+izlaz 0.0 ocekivano
+ulaz -2
+izlaz -2.0 ocekivano
+ulaz 1,2
+izlaz ERROR ocekivano
+ulaz -2*-3
+izlaz ERROR ocekivano- ne postoji mogucnost negativnih brojeva 
+ulaz (2-1)*3
+izlaz ERROR ocekivano ako ne postoji mogucnost koriscenja zagrada , kalkulator na telefonu ima tu mogucnost
+ulaz (9-3)+(2+1)
+izlaz ERROR ocekivano ako ne postoji mogucnost koriscenja zagrada , kalkulator na telefonu ima tu mogucnost
+ulaz -1.2 * 1.2
+izlaz -1.44 ocekivano
+ulaz 1.2*1.2
+izlaz 1.44 ocekivano
+ulaz -2/-3
+izlaz ERROR ocekivano ako nema mogucnosti za negativne brojeve 
+ulaz 2.1/1.2
+izlaz 1.7499999  neocekivano 1.75
+ulaz 4/0
+izlaz Infinity neocekivano 
+ulaz 2.2/0
+izlaz Infinity neocekivano 
+ulaz 1/10000000
+izlaz 1.0E-7 neocekivano , daje eksponencijalnu vrednost 
+ulaz -3/0
+izlaz -Infinity
+ulaz 12345567788*123456
+1.52413451E15
+zakljucak : podrzava osnovne matematicke radnje , nema mogucnost zagrada , ne podrzava negativne brojeve kao pocetne
+prilikom pokretanja aplikacije , ne podrzava deljenje sa 0,nema zaokruzivanja brojeva pri deljenu vec pokazuje rezultat
+sa 7 decimala,prilikom mnozenja brojeva preko milion pokazuje eksponencijalnu vrednost 
 
